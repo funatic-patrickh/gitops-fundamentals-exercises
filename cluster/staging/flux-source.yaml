@@ -1,0 +1,14 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: flux-fundamentals
+  namespace: patrickvanhoof
+spec:
+  interval: 10m0s
+  ref:
+    branch: main
+  secretRef:
+    name: flux-fundamentals
+  timeout: 1m0s
+  url: https://github.com/guidalabs/gitops-fundamentals-exercises/
