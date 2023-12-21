@@ -11,4 +11,4 @@ spec:
   secretRef:
     name: flux-fundamentals
   timeout: 1m0s
-  url: https://github.com/guidalabs/gitops-fundamentals-exercises/
+  url: https://github.com/funatic-patrickh/gitops-fundamentals-exercises/
